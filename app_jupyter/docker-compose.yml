@@ -5,7 +5,7 @@ services:
     build:
       context: .
     volumes:
-      - ../../tsf-bin:/tf/tsf-bin
+      - ../../bin-job-posting:/tf/bin-job-posting
     ports:
       - "8888:8888"
       - "6006:6006"
